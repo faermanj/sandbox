@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="ftclient.jnlp">
+	<information>
+		<title>Fault Tolerant Client Demo</title>
+		<vendor>Julio Faerman</vendor>
+	</information>
+	<security> 
+    	<all-permissions/> 
+    </security> 
+	<resources>
+		<j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se" />
+		<jar href="lib/ftclient.jar" main="true" />
+
+		<jar href="lib/infinispan-core-5.2.0.ALPHA1.jar" />
+		<jar href="lib/jboss-logging-3.1.1.GA.jar" />
+		<jar href="lib/jboss-marshalling-1.3.11.GA.jar" />
+		<jar href="lib/jboss-marshalling-river-1.3.11.GA.jar" />
+		<jar href="lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" />
+		<jar href="lib/jgroups-3.1.0.Beta1.jar" />
+		<jar href="lib/junit-3.8.1.jar" />
+		<jar href="lib/rhq-pluginAnnotations-3.0.4.jar" />
+		<jar href="lib/stax2-api-3.1.1.jar" />
+		<jar href="lib/staxmapper-1.1.0.Final.jar" />
+		<jar href="lib/woodstox-core-asl-4.1.1.jar" />
+
+	</resources>
+	<applet-desc name="Fault Tolerant Applet" main-class="jfaerman.InfinispanApplet"
+		width="300" height="300">
+	</applet-desc>
+	<update check="background" />
+</jnlp>  
