@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for yearDir in /ncdc/gsod/*
+for yearDir in $1
 do
   year=$(basename $yearDir)
   maxTemp=$(awk '{ temp = substr($0,103,6) + 0;
