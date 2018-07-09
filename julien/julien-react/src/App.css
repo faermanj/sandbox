@@ -1,9 +1,0 @@
-.App {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0,186,15,0.7);
-    z-index: 10;
-  }
