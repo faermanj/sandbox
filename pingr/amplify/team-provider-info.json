@@ -1,0 +1,14 @@
+{
+    "devenv": {
+        "awscloudformation": {
+            "AuthRoleName": "pingr-20190403175326-authRole",
+            "UnauthRoleArn": "arn:aws:iam::030555009967:role/pingr-20190403175326-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::030555009967:role/pingr-20190403175326-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "pingr-20190403175326-deployment",
+            "UnauthRoleName": "pingr-20190403175326-unauthRole",
+            "StackName": "pingr-20190403175326",
+            "StackId": "arn:aws:cloudformation:us-west-2:030555009967:stack/pingr-20190403175326/9f29d430-5628-11e9-a085-0a3524ef8042"
+        }
+    }
+}

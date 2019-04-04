@@ -6,3 +6,4 @@
 *.ear
 target
 .*
+pingr/package-lock.json
