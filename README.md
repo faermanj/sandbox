@@ -1,4 +1,1 @@
-sandbox
-=======
-
-Playing with stuff
+Sandbox for playing with (dangerous) stuff :)
